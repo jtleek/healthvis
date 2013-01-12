@@ -12,19 +12,12 @@ var rectDemo = d3.select('#main').
     attr('width', 700).
     attr('height', 500);
 
-//	  var bg = rectDemo.append('svg:rect')
-//        .attr('x', 0)
-//    	  .attr('y', 0)
-//        .attr('height', height)
-//	  .attr('width', width)
-//        .style('fill', 'yellow');
-
 var tp = rectDemo.append('svg:rect').
     attr('x', 5).
     attr('y', 5).
     attr('height', 142.5).
     attr('width', 342.5).
-    style('fill', 'deepskyblue');
+    style('fill', 'green'); //CHANGED COLOR
 
 var tp_txt = rectDemo.append('svg:text')
     .attr('x', 342.5/2+5) // width/2 + 5
